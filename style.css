@@ -1,0 +1,57 @@
+h1{ font-family: Poppins, san-serif;
+margin: 0;
+padding: 250;
+color: darkblue;
+text-align: center;
+;}
+nav {
+    background-color: darkblue;
+    text-align: left;
+    padding: 15px
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    transition: background 0.3s;
+}
+nav ul li a:hover {
+    background-color: white;
+    color: darkblue;
+    border-radius:5px
+}
+/* Contact Form */
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    color: black;
+    display: inline-block;
+    width: 50%;
+}
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: darkblue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+input[type="submit"] :hover {
+    background-color: lightblue;
+    color: black;
+}
